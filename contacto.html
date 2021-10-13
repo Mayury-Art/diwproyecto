@@ -28,30 +28,26 @@
   <form action="">
     <fieldset>
       <legend>Formulario de contacto</legend>
-      <p>
-        <label for="nombre">Nombre: </label>
-        <input type="text" name="nombre" id="nombre" placeholder="Tu nombre es?" pattern="[a-zA-Z0-9]{1,30}" />
-      </p>
-      <p>
-        <label for="edad">Edad: </label>
-        <input type="number" placeholder="Tu edad es?" max="99" min="18" id="edad" />
-      </p>
-      <p>
-        <label for="email">Email: </label>
-        <input type="email" name="email" id="email" placeholder="Tu email es?" />
-      </p>
-      <p>
-        <label for="fono">Teléfono: </label>
-        <input type="tel" name="fono" id="fono" placeholder="Tu teléfono es?" pattern="[0-9]{9}" />
-      </p>
-      <p>
-        <label for="textoConsulta">Escribe tu consulta: </label>
-        <textarea name="textoConsulta" id="textoConsulta" cols="30" rows="10"></textarea>
-      </p>
-      <p>
-        <label for="privacidad">Política de privacidad</label>
-        <input type="checkbox" />
-      </p>
+
+      <label for="nombre">Nombre: </label>
+      <input type="text" name="nombre" id="nombre" placeholder="nombre" pattern="[a-zA-Z0-9]{1,30}"
+        autofocus="autofocus" required />
+
+      <label for="edad">Edad: </label>
+      <input type="number" placeholder="edad" max="99" min="18" id="edad" required />
+
+      <label for="email">Email: </label>
+      <input type="email" name="email" id="email" placeholder="mail@email.com" required />
+
+      <label for="fono">Teléfono: </label>
+      <input type="tel" name="fono" id="fono" placeholder="Teléfono" pattern="[0-9]{9}" required />
+
+      <label for="textoConsulta">Escribe tu consulta: </label>
+      <textarea name="textoConsulta" id="textoConsulta" cols="30" rows="10"></textarea>
+
+      <label for="privacidad">Política de privacidad</label>
+      <input type="checkbox" required />
+
 
       <input type="submit" name="Enviar" />
     </fieldset>
