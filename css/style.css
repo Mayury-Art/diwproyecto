@@ -7,7 +7,12 @@ p{
     font-size: 1em;
 }
 body{
-    background-color: #A2CE8A;
+    background-color: #fff7ddbd;
+    font-family: 'Bodoni Moda', serif;
+}
+
+h1, h2, h3{
+    color: #2a6932;
 }
 
 li {
