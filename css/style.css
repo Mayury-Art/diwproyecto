@@ -2,7 +2,7 @@
 *{
     padding: 0;
     margin: 0;
-    /*Adjunmtar imagen desde url googleFonts*/
+    /*Adjuntar imagen desde url googleFonts*/
     /*font-family: 'Bodoni Moda', serif;*/
 }
 
@@ -36,21 +36,40 @@ h1, h2, h3, h4, h5{
     line-height: 50px
 }
 
-nav{
+/* Header and Nav */
+header{
     position: fixed;
     width: 100%;
-    height: 70px;
-    background-color: #496940;
-    max-width: 1024px;
-    margin: 0 auto;
-    
+    height: 70px;  
+    background-color: #96cf8e;
 }
-/* header.nav{
+nav{
     max-width: 1024px;
     margin: 0 auto;
-    
-
-} */
+}
 header img{
     padding: 18px 10px;
+    width: 50px;
+}
+nav ul{
+    float: right;
+    list-style: none;
+    text-align: center;
+    vertical-align: top;
+}
+nav li{
+    list-style-type: none;
+    padding: 0px;
+    display: inline;
+}
+nav li a{
+    font-size: 1em;
+    text-decoration: none;
+    line-height: 70px;
+    padding: 15px 10px;
+}
+
+aside ul{
+    float: right;
+    vertical-align: auto;
 }
