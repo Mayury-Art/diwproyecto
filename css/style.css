@@ -73,3 +73,9 @@ aside ul{
     float: right;
     vertical-align: auto;
 }
+
+.palmeras{
+    width: 100%;
+    padding: 5px;
+    margin: 10px;
+}
