@@ -1,113 +1,52 @@
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    /*Adjuntar imagen desde url googleFonts*/
-    /*font-family: 'Bodoni Moda', serif;*/
-}
-
-
-/* #imgLogo{
-
-} */
-
-
-/*Adjuntar imagen desde repositorio*/
-
-@font-face {
-    font-family: Bodoni;
-    src: url(/webFonts/Bodoni_Moda/BodoniModa-VariableFont_opsz\,wght.ttf);
-}
-
-p {
-    font-size: 1em;
-    color: black;
-    text-align: justify;
-    line-height: 1.5em;
-}
-
-body {
-    background-color: #fff7ddbd;
-    color: black;
-    letter-spacing: 1px;
-    word-spacing: 1px;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5 {
-    color: #2a6932;
-    text-align: center;
-    text-transform: uppercase;
-    line-height: 50px
-}
-
-
-/* Header and Nav */
-
-header {
-    position: fixed;
-    width: 100%;
-    height: 70px;
-    background-color: #96cf8e;
-}
-
-nav {
-    max-width: 1024px;
-    margin: 0 auto;
-}
-
-header img {
-    padding: 18px 10px;
-    width: 50px;
-}
-
-nav ul {
-    float: right;
-    list-style: none;
-    text-align: center;
-    vertical-align: top;
-}
-
-nav li {
-    list-style-type: none;
-    padding: 0px;
-    display: inline;
-}
-
-nav li a {
-    font-size: 1em;
-    text-decoration: none;
-    line-height: 70px;
-    padding: 15px 10px;
-}
-
-aside ul {
-    float: right;
-    vertical-align: auto;
-}
-
-.palmeras {
-    width: 100%;
-    padding: 5px;
-    margin: 10px;
-}
-
-main {
-    margin-top: 50px;
-    padding-top: 50px;
-}
-
-.menu {
-    height: 70px;
-}
-
-
-/*PARRÁFOS*/
-
-p {
+<!DOCTYPE html><html lang="es"><head><meta charset="UTF-8" /><meta http-equiv="X-UA-Compatible" content="IE=edge" /><meta name="viewport" content="width=device-width, initial-scale=1.0" /><link rel="stylesheet" href="css/style.css" /><link rel="shortcut icon" type="image/x-icon" href="img/3757palm.ico"><title>Blog - Arecales - Poda de palmeras,
+árboles y mantenimiento de jardines</title><meta name="description" content="Consejo para la poda de palmeras. Aprende a cuidar de tu jardín de palmeras. Consejos sobre de poda de palmeras y árboles" /></head><body><header><nav class="menu"><a href="index.html"><img src="img/logoArecales.png" alt="Logo" /></a><ul><li><a href="index.html">Inicio</a></li><li><a href="contacto.html">Contacto</a></li><li><a href="servicios.html">Servicios</a></li><li><a href="blog.html">Blog</a></li></ul></nav></header><div class="menu"></div><aside><ul><li><a href="#dondeEstamos">Donde estamos</a></li><li><a href="#dondeEstamos">Nueva Entrada Blog - MAPA</a></li><li><a href="#loDifundimos">Nueva Entrada Blog -Video</a></li><li><a href="#otraEntrada">Otra Entrada</a></li><li><a href="#otraEntrada">Otras Entrada</a></li><li><a href="#otrasNovedades">Otras Novedades</a></li></ul></aside><article><a name="dondeEstamos"></a><h2>Nueva Entrada Blog - MAPA</h2><p>Suspendisse sit amet blandit urna,
+ultrices auctor risus. Nunc ultricies,
+lorem sit amet dignissim dictum,
+leo ligula malesuada orci,
+eu elementum augue felis mollis purus. Sed pellentesque condimentum sem. Morbi commodo pulvinar libero et malesuada. Maecenas viverra maximus velit,
+sed aliquam velit pretium sed. Curabitur eu purus ornare,
+sollicitudin lorem eu,
+facilisis enim. In consectetur sollicitudin neque eget ornare. Mauris faucibus sed eros sed pulvinar. Phasellus accumsan tincidunt mi id auctor. Donec feugiat faucibus augue ac tempor. Donec consequat diam in nunc cursus fringilla. Quisque vestibulum nulla quis risus commodo fringilla. Donec id massa mattis,
+viverra turpis vitae,
+tincidunt dui. Quisque vitae faucibus orci. Nam imperdiet,
+justo et cursus porttitor,
+ipsum enim pulvinar purus,
+quis ultrices augue leo in quam. Nullam euismod aliquam sem et imperdiet. </p><p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3131.9812502762406!2d-0.7183108844776932!3d38.279927479670576!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd63b7ad6e40fdc1%3A0x609104ad972f51c4!2sIES%20Severo%20Ochoa%20Elche!5e0!3m2!1ses!2ses!4v1633282839449!5m2!1ses!2ses" width="600" height="450" style="border: 0" allowfullscreen="" loading="lazy"></iframe></p></article><article><a name="loDifundimos"></a><h3>Nueva Entrada Blog</h3><p>Suspendisse sit amet blandit urna,
+ultrices auctor risus. Nunc ultricies,
+lorem sit amet dignissim dictum,
+leo ligula malesuada orci,
+eu elementum augue felis mollis purus. Sed pellentesque condimentum sem. Morbi commodo pulvinar libero et malesuada. Maecenas viverra maximus velit,
+sed aliquam velit pretium sed. Curabitur eu purus ornare,
+sollicitudin lorem eu,
+facilisis enim. In consectetur sollicitudin neque eget ornare. Mauris faucibus sed eros sed pulvinar. Phasellus accumsan tincidunt mi id auctor. Donec feugiat faucibus augue ac tempor. Donec consequat diam in nunc cursus fringilla. Quisque vestibulum nulla quis risus commodo fringilla. Donec id massa mattis,
+viverra turpis vitae,
+tincidunt dui. Quisque vitae faucibus orci. Nam imperdiet,
+justo et cursus porttitor,
+ipsum enim pulvinar purus,
+quis ultrices augue leo in quam. Nullam euismod aliquam sem et imperdiet. </p><p><iframe width="560" height="315" src="https://www.youtube.com/embed/pk2ylcYoxZc?start=90" title="YouTube player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p></article><article><a name="otraEntrada"></a><h4>Otra entrada de blog</h4><p>Suspendisse sit amet blandit urna,
+ultrices auctor risus. Nunc ultricies,
+lorem sit amet dignissim dictum,
+leo ligula malesuada orci,
+eu elementum augue felis mollis purus. Sed pellentesque condimentum sem. Morbi commodo pulvinar libero et malesuada. Maecenas viverra maximus velit,
+sed aliquam velit pretium sed. Curabitur eu purus ornare,
+sollicitudin lorem eu,
+facilisis enim. In consectetur sollicitudin neque eget ornare. Mauris faucibus sed eros sed pulvinar. Phasellus accumsan tincidunt mi id auctor. Donec feugiat faucibus augue ac tempor. Donec consequat diam in nunc cursus fringilla. Quisque vestibulum nulla quis risus commodo fringilla. Donec id massa mattis,
+viverra turpis vitae,
+tincidunt dui. Quisque vitae faucibus orci. Nam imperdiet,
+justo et cursus porttitor,
+ipsum enim pulvinar purus,
+quis ultrices augue leo in quam. Nullam euismod aliquam sem et imperdiet. </p></article><article><a name="otrasNovedades"></a><h5>Novedades</h5><p>Nullam aliquet nisi nunc,
+vitae elementum eros auctor at. Ut non massa tempus,
+mollis libero quis,
+ultricies nunc. In tristique porta sapien,
+sed pulvinar erat ultrices et. Praesent tempus,
+odio nec malesuada dictum,
+dui lacus tempus justo,
+quis lacinia lacus ex a tortor. In imperdiet risus eget auctor pulvinar. Aenean laoreet id ante quis lobortis. Ut elementum elementum ligula,
+et tincidunt dui imperdiet quis. Quisque iaculis tincidunt felis,
+in dictum elit fringilla at. Duis ligula sapien,
+pellentesque eu mollis vitae,
+venenatis a ligula. Etiam in orci vitae lorem vehicula hendrerit. </p></article><footer><p>Autor: Pepito Grillo.</p><address><p>Envianos un <a href="mailto:ejemplo@ejemplo.com">email</a></p><p>Llamanos por teléfono al <a href="tel:+34698745216">698745216</a></p></address><section><h3>Redes sociales:</h3><img src="img/iconswhatsapp.png" alt="whatsapp" /><img src="img/iconstwitter.png" alt="twitter" /><img src="img/iconsfacebook.png" alt="facebook" /></section></footer></body></html>FOS*/ p {
     line-height: 2em;
     text-align: justify;
 }
@@ -116,6 +55,7 @@ p {
 /*FOOTER*/
 
 footer {
+    color: royalblue;
     text-align: left;
     background-color: #2a6932;
     height: 100%;
