@@ -1,5 +1,5 @@
 <!DOCTYPE html><html lang="es"><head><meta charset="UTF-8" /><meta http-equiv="X-UA-Compatible" content="IE=edge" /><meta name="viewport" content="width=device-width, initial-scale=1.0" /><link rel="stylesheet" href="css/style.css" /><link rel="shortcut icon" type="image/x-icon" href="img/3757palm.ico"><title>Blog - Arecales - Poda de palmeras,
-árboles y mantenimiento de jardines</title><meta name="description" content="Consejo para la poda de palmeras. Aprende a cuidar de tu jardín de palmeras. Consejos sobre de poda de palmeras y árboles" /></head><body><header><nav class="menu"><a href="index.html"><img src="img/logoArecales.png" alt="Logo" /></a><ul><li><a href="index.html">Inicio</a></li><li><a href="contacto.html">Contacto</a></li><li><a href="servicios.html">Servicios</a></li><li><a href="blog.html">Blog</a></li></ul></nav></header><div class="menu"></div><aside><ul><li><a href="#dondeEstamos">Donde estamos</a></li><li><a href="#dondeEstamos">Nueva Entrada Blog - MAPA</a></li><li><a href="#loDifundimos">Nueva Entrada Blog -Video</a></li><li><a href="#otraEntrada">Otra Entrada</a></li><li><a href="#otraEntrada">Otras Entrada</a></li><li><a href="#otrasNovedades">Otras Novedades</a></li></ul></aside><article><a name="dondeEstamos"></a><h2>Nueva Entrada Blog - MAPA</h2><p>Suspendisse sit amet blandit urna,
+árboles y mantenimiento de jardines</title><meta name="description" content="Consejo para la poda de palmeras. Aprende a cuidar de tu jardín de palmeras. Consejos sobre de poda de palmeras y árboles" /><script src="https://kit.fontawesome.com/69c62eb682.js" crossorigin="anonymous"></script></head><body><header><nav class="menu"><a href="index.html"><img src="img/logoArecales.png" alt="Logo" /></a><ul><li><a href="index.html">Inicio</a></li><li><a href="contacto.html">Contacto</a></li><li><a href="servicios.html">Servicios</a></li><li><a href="blog.html">Blog</a></li></ul></nav></header><div class="menu"></div><aside><ul><li><a href="#dondeEstamos">Donde estamos</a></li><li><a href="#dondeEstamos">Nueva Entrada Blog - MAPA</a></li><li><a href="#loDifundimos">Nueva Entrada Blog -Video</a></li><li><a href="#otraEntrada">Otra Entrada</a></li><li><a href="#otraEntrada">Otras Entrada</a></li><li><a href="#otrasNovedades">Otras Novedades</a></li></ul></aside><article><a name="dondeEstamos"></a><h2>Nueva Entrada Blog - MAPA</h2><p>Suspendisse sit amet blandit urna,
 ultrices auctor risus. Nunc ultricies,
 lorem sit amet dignissim dictum,
 leo ligula malesuada orci,
@@ -46,7 +46,137 @@ quis lacinia lacus ex a tortor. In imperdiet risus eget auctor pulvinar. Aenean 
 et tincidunt dui imperdiet quis. Quisque iaculis tincidunt felis,
 in dictum elit fringilla at. Duis ligula sapien,
 pellentesque eu mollis vitae,
-venenatis a ligula. Etiam in orci vitae lorem vehicula hendrerit. </p></article><footer><p>Autor: Pepito Grillo.</p><address><p>Envianos un <a href="mailto:ejemplo@ejemplo.com">email</a></p><p>Llamanos por teléfono al <a href="tel:+34698745216">698745216</a></p></address><section><h3>Redes sociales:</h3><img src="img/iconswhatsapp.png" alt="whatsapp" /><img src="img/iconstwitter.png" alt="twitter" /><img src="img/iconsfacebook.png" alt="facebook" /></section></footer></body></html>FOS*/ p {
+venenatis a ligula. Etiam in orci vitae lorem vehicula hendrerit. </p></article><footer><div>Autor: Pepito Grillo.</div><address><p>Envianos un <a href="mailto:ejemplo@ejemplo.com">email</a></p><p>Llamanos: <a href="tel:+34698745216">698745216</a></p></address><section><div>Redes sociales: <p><a href="#"><i class="fab fa-whatsapp-square iconos"></i></a><img src="img/iconswhatsapp.png" alt="whatsapp" /><img src="img/iconstwitter.png" alt="twitter" /><img src="img/iconsfacebook.png" alt="facebook" /></p></div></section></footer></body></html>R*/ footer {
+    color: black;
+    text-align: left;
+    background-color: #2a6932;
+    height: 100%;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+}
+
+footer+p {
+    display: block;
+    width: 33.3%;
+    padding: 10;
+}
+
+footer address {
+    text-transform: uppercase;
+    display: block;
+    float: left;
+    width: 33.3%;
+    clear: none;
+}
+
+footer div {
+    font-weight: bold;
+    float: left;
+    clear: none;
+    width: 33.3%;
+    align-items: center;
+}
+
+
+/*ASIDE*/
+
+
+/* #imgLogo{
+
+} */
+
+
+/*Adjuntar imagen desde repositorio*/
+
+@font-face {
+    font-family: Bodoni;
+    src: url(/webFonts/Bodoni_Moda/BodoniModa-VariableFont_opsz\,wght.ttf);
+}
+
+p {
+    font-size: 1em;
+    color: black;
+    text-align: justify;
+    line-height: 1.5em;
+}
+
+body {
+    background-color: #fff7ddbd;
+    color: black;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    color: #2a6932;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 50px
+}
+
+
+/* Header and Nav */
+
+header {
+    position: fixed;
+    width: 100%;
+    height: 70px;
+    background-color: #96cf8e;
+}
+
+nav {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+header img {
+    padding: 18px 10px;
+    width: 50px;
+}
+
+nav ul {
+    float: right;
+    list-style: none;
+    text-align: center;
+    vertical-align: top;
+}
+
+nav li {
+    list-style-type: none;
+    padding: 0px;
+    display: inline;
+}
+
+nav li a {
+    font-size: 1em;
+    text-decoration: none;
+    line-height: 70px;
+    padding: 15px 10px;
+}
+
+aside ul {
+    float: right;
+    vertical-align: auto;
+}
+
+.palmeras {
+    width: 100%;
+    padding: 5px;
+}
+
+.menu {
+    height: 70px;
+}
+
+
+/*PARRÁFOS*/
+
+p {
     line-height: 2em;
     text-align: justify;
 }
@@ -55,10 +185,49 @@ venenatis a ligula. Etiam in orci vitae lorem vehicula hendrerit. </p></article>
 /*FOOTER*/
 
 footer {
-    color: royalblue;
+    color: black;
     text-align: left;
     background-color: #2a6932;
     height: 100%;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+}
+
+footer+p {
+    display: block;
+    width: 33.3%;
+    padding: 10;
+}
+
+footer address {
+    text-transform: uppercase;
+    display: block;
+    float: left;
+    width: 33.3%;
+    clear: none;
+}
+
+.iconos {
+    color: black;
+    font-size: 50px;
+    text-align: center;
+    width: 33.3%;
+}
+
+footer div {
+    font-weight: bold;
+    float: left;
+    clear: none;
+    width: 33.3%;
+    align-items: center;
+}
+
+.foo {
+    float: left;
+    width: 33.3%;
+    text-align: center;
+    color: black;
 }
 
 
