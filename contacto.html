@@ -14,6 +14,7 @@
     <!--El título tiene que llevar 70 carácteres-->
     <title>Contacto - Arecales - Poda de palmeras, árboles y mantenimiento de jardines</title>
     <meta name="description" content="Contacta con nosotros para más información para el cuidado de tus palmeras y jardines" />
+    <script src="https://kit.fontawesome.com/69c62eb682.js" crossorigin="anonymous"></script>
 </head>
 
 
@@ -35,19 +36,19 @@
             <legend>Formulario de contacto</legend>
 
             <label for="nombre"> </label>
-            <input type="text" name="nombre" id="nombre" placeholder="Escribe tu nombre" pattern="[a-zA-Z0-9]{1,30}" autofocus="autofocus" required />
+            <input type="text" name="nombre" id="Nombre" placeholder="Escribe tu nombre" pattern="[a-zA-Z0-9]{1,30}" autofocus="autofocus" required />
 
-            <label for="edad">Edad: </label>
-            <input type="number" placeholder="Escribe tu edad" max="99" min="18" id="edad" required />
+            <label for="edad"></label>
+            <input type="number" placeholder="Edad" max="99" min="18" id="edad" required />
 
-            <label for="email">Email: </label>
+            <label for="email"></label>
             <input type="email" name="email" id="email" placeholder="mail@email.com" required />
 
-            <label for="fono">Teléfono: </label>
+            <label for="fono"></label>
             <input type="tel" name="fono" id="fono" placeholder="Teléfono" pattern="[0-9]{9}" required />
 
-            <label for="textoConsulta">Escribe tu consulta: </label>
-            <textarea name="textoConsulta" id="textoConsulta" cols="30" rows="10"></textarea>
+            <label for="textoConsulta"> </label>
+            <textarea name="textoConsulta" id="textoConsulta" cols="30" rows="10" placeholder="Escribe tu consulta"></textarea>
 
             <label for="privacidad">Política de privacidad</label>
             <input type="checkbox" required />
@@ -57,19 +58,22 @@
         </fieldset>
     </form>
     <footer>
-        <p>Autor: Pepito Grillo.</p>
-        <address>
-      <p>Envianos un <a href="mailto:ejemplo@ejemplo.com">email</a></p>
-      <p>Llamanos por teléfono al <a href="tel:+34698745216">698745216</a></p>
-    </address>
-        <section>
-            Redes sociales:
-            <span>
-                <img src="img/iconswhatsapp.png" alt="whatsapp" />
-                <img src="img/iconstwitter.png" alt="twitter" />
-                <img src="img/iconsfacebook.png" alt="facebook" />
-            </span>
-        </section>
+        <div class="foo">
+            <p>Autor: Pepito Grillo.</p>
+        </div>
+        <div class="foo">
+            <address>
+                <p>Envianos un <a href="mailto:ejemplo@ejemplo.com">email</a></p>
+                <p>Llamanos: <a href="tel:+34698745216">698745216</a></p>
+             </address>
+        </div>
+        <div class="foo">
+            <p class="rss">Redes sociales:</p>
+            <a href="#"><i class="fab fa-whatsapp-square iconos"></i></a>
+            <a href="#"><i class="fab fa-facebook-square iconos"></i></a>
+            <a href="#"><i class="fab fa-twitter-square iconos"></i></a>
+        </div>
+
     </footer>
 </body>
 

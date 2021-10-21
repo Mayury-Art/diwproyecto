@@ -1,42 +1,49 @@
 * {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-  /*Adjuntar imagen desde url googleFonts*/
-  /*font-family: 'Bodoni Moda', serif;*/
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* controla si el usuario puede seleccionar el texto */
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
+
 /*Adjuntar imagen desde repositorio*/
+
 @font-face {
-  font-family: Bodoni;
-  src: url(/webFonts/Bodoni_Moda/BodoniModa-VariableFont_opsz\,wght.ttf);
+    font-family: Bodoni;
+    src: url(/webFonts/Bodoni_Moda/BodoniModa-VariableFont_opsz\,wght.ttf);
+    /*Adjuntar imagen desde url googleFonts*/
+    /*font-family: 'Bodoni Moda', serif;*/
 }
 
 p {
-  font-size: 1em;
-  color: black;
-  text-align: justify;
-  line-height: 1.5em;
+    font-size: 1em;
+    color: black;
+    text-align: justify;
+    line-height: 1.5em;
 }
 
 body {
-  background-color: #fff7ddbd;
-  color: black;
-  letter-spacing: 1px;
-  word-spacing: 1px;
+    background-color: #fff7ddbd;
+    color: black;
+    letter-spacing: 1px;
+    word-spacing: 1px;
 }
 
 .cuerpo {
-  max-width: 100%;
-  margin: 0, auto;
-  display: block;
+    max-width: 100%;
+    margin: 0, auto;
+    display: block;
 }
 
 main {
-  max-width: 1000px;
-  margin: 0 auto;
-  background-color: #fff7ddbd;
-  clear: both;
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: #fff7ddbd;
+    clear: both;
 }
 
 h1,
@@ -44,160 +51,231 @@ h2,
 h3,
 h4,
 h5 {
-  color: #2a6932;
-  text-align: center;
-  text-transform: uppercase;
-  line-height: 50px;
+    color: #2a6932;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 50px;
 }
+
 
 /*-----------------Header and Nav-----------------*/
 
 header {
-  background-color: #96cf8e;
-  position: fixed;
-  width: 100%;
-  height: 100px;
-  overflow: hidden;
+    background-color: #96cf8e;
+    position: fixed;
+    width: 100%;
+    height: 100px;
+    overflow: hidden;
 }
 
 nav ul {
-  float: right;
-  list-style: none;
-  text-align: right;
+    float: right;
+    list-style: none;
+    text-align: right;
 }
 
 nav li {
-  display: inline-block;
+    display: inline-block;
 }
 
 nav li a {
-  display: inline-block;
-  padding: 35px 20px;
-  font-size: 1.5em;
-  text-decoration: none;
-  line-height: 1.5em;
+    display: inline-block;
+    padding: 35px 20px;
+    font-size: 1.5em;
+    text-decoration: none;
+    line-height: 1.5em;
 }
 
 header nav ul li a:hover {
-  list-style: none;
-  display: inline-block;
-  background-color: #2a6932;
-  list-style: none;
-}
-/*Icono*/
-header img {
-  width: 100px;
+    list-style: none;
+    display: inline-block;
+    background-color: #2a6932;
+    list-style: none;
 }
 
+
+/*-------Logo------------*/
+
+header img {
+    width: 100px;
+}
+
+
 /*Imagen Palmerass Indice*/
-.palmeras {
-  width: 100%;
-  padding: 30px;
+
+#palmeras {
+    width: 100%;
+    padding: 30px;
+    text-align: center;
 }
 
 .menu {
-  /*Ditancia entre el header y el body*/
-  height: 150px;
+    /*Ditancia entre el header y el body*/
+    height: 100px;
 }
+
 
 /*PARRÁFOS*/
 
 p {
-  line-height: 2em;
-  text-align: justify;
+    line-height: 2em;
+    text-align: justify;
 }
 
 main article {
-  float: right;
-  width: 70%;
-  padding-left: 10px;
+    float: right;
+    width: 70%;
+    padding-left: 10px;
 }
+
+
+/*------INDEX-----*/
+
+.articleIndex {
+    float: left;
+    width: 50%;
+}
+
+
+/*-------BLOG---------*/
+
+iframe {
+    width: 100%;
+    height: 400px;
+    margin: 20px, auto;
+    padding: 15px, auto;
+}
+
+
 /*---------ASIDE-----------------*/
+
 .menuAside {
-  float: left;
-  background-color: white;
-  width: 30%;
-  float: left;
+    float: left;
+    width: 30%;
+    float: left;
 }
+
 aside {
-  display: block;
-  background-color: #25d6c8;
-  padding: 30px;
+    margin-top: 25px;
+    display: block;
+    background-color: #2a6932;
+    opacity: 0.7;
+    padding: 30px;
 }
+
 aside ul li {
-  text-decoration: none;
-  color: black;
-  list-style: none;
-  margin-bottom: 16px;
+    text-decoration: none;
+    color: black;
+    list-style: none;
+    margin-bottom: 16px;
 }
+
 aside ul li:hover {
-  color: #425067;
+    color: #425067;
 }
+
 
 /*---------FOOTER-----------------*/
 
 footer {
-  background-color: #2a6932;
-  height: 100%;
-  width: 100%;
-  display: inline-block;
-  padding-top: 1em;
-  padding-bottom: 1em;
-  text-align: justify;
-  margin-top: 10px;
+    background-color: #2a6932;
+    height: 100%;
+    width: 100%;
+    display: inline-block;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    text-align: justify;
+    margin-top: 10px;
 }
 
 .foo {
-  float: left;
-  width: 33.3%;
-  text-align: center;
-  color: white;
-  display: block;
+    float: left;
+    width: 33.3%;
+    text-align: center;
+    color: white;
+    display: block;
 }
 
 .foo p {
-  padding-left: 15px;
-  color: white;
+    padding-left: 15px;
+    color: white;
 }
 
 .foo address {
-  text-transform: uppercase;
+    text-transform: uppercase;
 }
 
 .foo address a {
-  list-style: none;
-  color: black;
+    list-style: none;
+    color: black;
 }
+
 .rss {
-  color: white;
-  text-transform: bold;
-  font-size: 20px;
-  text-align: center;
-  padding: auto;
-  line-height: 1em;
-  margin-bottom: 0.5em;
+    color: white;
+    text-transform: bold;
+    font-size: 20px;
+    text-align: center;
+    padding: auto;
+    line-height: 1em;
+    margin-bottom: 0.5em;
 }
+
 .iconos {
-  color: black;
-  font-size: 50px;
-  text-align: center;
+    color: black;
+    font-size: 50px;
+    text-align: center;
 }
+
+
 /*-----------TABLA/SERVICIOS--------*/
+
 table {
-  caption-side: bottom;
-  table-layout: auto;
-  width: 100%;
-  text-align: center;
-  margin-left: auto;
+    caption-side: bottom;
+    table-layout: auto;
+    width: 100%;
+    text-align: center;
+    margin-left: auto;
 }
 
 th {
-  background-color: #2a6932;
-  color: white;
+    background-color: #2a6932;
+    color: white;
 }
 
 tr,
 td,
 th {
-  border: 1px solid grey;
+    border: 1px solid grey;
+}
+
+
+/*---------------CONTACTO--------------------*/
+
+form {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+form input {
+    width: 90%;
+    height: 30px;
+    margin: 0.5rem;
+}
+
+form textarea {
+    width: 90%;
+    height: 30px;
+    margin: 0.5rem;
+}
+
+form button {
+    padding: 0.5em 1em;
+    border: none;
+    background: rgb(100, 200, 255);
+    cursor: pointer;
 }
