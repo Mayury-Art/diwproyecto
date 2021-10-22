@@ -19,6 +19,9 @@
     /*font-family: 'Bodoni Moda', serif;*/
 }
 
+
+  /*PARRÁFOS*/
+
 p {
     font-size: 1em;
     color: black;
@@ -26,11 +29,13 @@ p {
     line-height: 1.5em;
 }
 
+/*-----------------BODY------------------*/
 body {
     background-color: #fff7ddbd;
     color: black;
     letter-spacing: 1px;
     word-spacing: 1px;
+    margin: 0;
 }
 
 .cuerpo {
@@ -44,6 +49,26 @@ main {
     margin: 0 auto;
     background-color: #fff7ddbd;
     clear: both;
+}
+
+.menu {
+    /*Ditancia entre el header y el body*/
+    height: 100px;
+}
+
+
+main article {
+    float: right;
+    width: 70%;
+    padding-left: 10px;
+}
+
+
+/*------ARTICUOS-INDEX-----*/
+
+.articleIndex {
+    float: left;
+    width: 50%;
 }
 
 h1,
@@ -109,32 +134,7 @@ header img {
     text-align: center;
 }
 
-.menu {
-    /*Ditancia entre el header y el body*/
-    height: 100px;
-}
 
-
-/*PARRÁFOS*/
-
-p {
-    line-height: 2em;
-    text-align: justify;
-}
-
-main article {
-    float: right;
-    width: 70%;
-    padding-left: 10px;
-}
-
-
-/*------INDEX-----*/
-
-.articleIndex {
-    float: left;
-    width: 50%;
-}
 
 
 /*-------BLOG---------*/
@@ -179,13 +179,17 @@ aside ul li:hover {
 
 footer {
     background-color: #2a6932;
-    height: 100%;
+    height: 100px;
     width: 100%;
     display: inline-block;
     padding-top: 1em;
     padding-bottom: 1em;
     text-align: justify;
     margin-top: 10px;
+
+    bottom: 0;
+    clear: both;
+
 }
 
 .foo {
