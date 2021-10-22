@@ -20,7 +20,7 @@
 }
 
 
-  /*PARRÁFOS*/
+/*PARRÁFOS*/
 
 p {
     font-size: 1em;
@@ -29,19 +29,16 @@ p {
     line-height: 1.5em;
 }
 
+
 /*-----------------BODY------------------*/
+
 body {
     background-color: #fff7ddbd;
     color: black;
     letter-spacing: 1px;
     word-spacing: 1px;
     margin: 0;
-}
-
-.cuerpo {
-    max-width: 100%;
-    margin: 0, auto;
-    display: block;
+    height: 100vh;
 }
 
 main {
@@ -51,16 +48,11 @@ main {
     clear: both;
 }
 
+
+/*Ditancia entre el header y el body*/
+
 .menu {
-    /*Ditancia entre el header y el body*/
     height: 100px;
-}
-
-
-main article {
-    float: right;
-    width: 70%;
-    padding-left: 10px;
 }
 
 
@@ -135,61 +127,18 @@ header img {
 }
 
 
-
-
-/*-------BLOG---------*/
-
-iframe {
-    width: 100%;
-    height: 400px;
-    margin: 20px, auto;
-    padding: 15px, auto;
-}
-
-
-/*---------ASIDE-----------------*/
-
-.menuAside {
-    float: left;
-    width: 30%;
-    float: left;
-}
-
-aside {
-    margin-top: 25px;
-    display: block;
-    background-color: #2a6932;
-    opacity: 0.7;
-    padding: 30px;
-}
-
-aside ul li {
-    text-decoration: none;
-    color: black;
-    list-style: none;
-    margin-bottom: 16px;
-}
-
-aside ul li:hover {
-    color: #425067;
-}
-
-
 /*---------FOOTER-----------------*/
 
 footer {
     background-color: #2a6932;
     height: 100px;
     width: 100%;
-    display: inline-block;
     padding-top: 1em;
     padding-bottom: 1em;
     text-align: justify;
     margin-top: 10px;
-
     bottom: 0;
     clear: both;
-
 }
 
 .foo {
@@ -231,7 +180,64 @@ footer {
 }
 
 
+/*-------BLOG---------*/
+
+.cuerpo {
+    max-width: 100%;
+    margin: 0, auto;
+    display: block;
+}
+
+main article {
+    float: right;
+    width: 70%;
+    padding-left: 10px;
+}
+
+iframe {
+    width: 100%;
+    height: 400px;
+    margin: 20px, auto;
+    padding: 15px, auto;
+}
+
+
+/*---------ASIDE-BLOG-----------------*/
+
+.menuAside {
+    float: left;
+    width: 30%;
+    float: left;
+}
+
+aside {
+    margin-top: 25px;
+    display: block;
+    background-color: #2a6932;
+    opacity: 0.7;
+    padding: 30px;
+}
+
+aside ul li {
+    text-decoration: none;
+    color: black;
+    list-style: none;
+    margin-bottom: 16px;
+}
+
+aside ul li:hover {
+    color: #425067;
+}
+
+
 /*-----------TABLA/SERVICIOS--------*/
+
+
+/*Para dejar el foter bajo*/
+
+.divTablaServicios {
+    height: 80%;
+}
 
 table {
     caption-side: bottom;
@@ -257,6 +263,7 @@ th {
 
 form {
     width: 100%;
+    height: 100%;
     max-width: 600px;
     margin: 0 auto;
     display: flex;
@@ -273,7 +280,7 @@ form input {
 
 form textarea {
     width: 90%;
-    height: 30px;
+    height: 100px;
     margin: 0.5rem;
 }
 
