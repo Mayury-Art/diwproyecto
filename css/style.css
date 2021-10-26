@@ -247,6 +247,14 @@ table {
     margin-left: auto;
 }
 
+table:first-child{
+    color:#96CF8E
+}
+
+table:first-child{
+    color:#96CF8E
+}
+
 th {
     background-color: #2a6932;
     color: white;
