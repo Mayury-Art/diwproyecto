@@ -251,11 +251,11 @@ table:first-child{
     color:#96CF8E
 }
 
-table:first-child{
+th:first-child{
     color:#96CF8E
 }
 
-th {
+th,td {
     background-color: #2a6932;
     color: white;
 }
