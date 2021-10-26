@@ -31,9 +31,10 @@
         </nav>
     </header>
     <div class="menu"></div>
+    <div class="formulario"></div>
     <form action="">
         <fieldset>
-            <legend>Formulario de contacto</legend>
+         <legend>Formulario de contacto</legend>
 
             <label for="nombre"> </label>
             <input type="text" name="nombre" id="Nombre" placeholder="Escribe tu nombre" pattern="[a-zA-Z0-9]{1,30}" autofocus="autofocus" required />
@@ -50,13 +51,16 @@
             <label for="textoConsulta"> </label>
             <textarea name="textoConsulta" id="textoConsulta" cols="30" rows="10" placeholder="Escribe tu consulta"></textarea>
 
-            <label for="privacidad">Política de privacidad</label>
-            <input type="checkbox" required />
+            <label for="privacidad" class="politica">Política de privacidad
+                <inputinput type="checkbox" checked="checked" required />
+                <span class="checkmark"></span>
+            </label>
 
 
-            <input type="submit" name="Enviar" />
+            <button type="submit" id="enviar" name="Enviar">Enviar</button>
         </fieldset>
     </form>
+    <div class="formulario"></div>
     <footer>
         <div class="foo">
             <p>Autor: Pepito Grillo.</p>
