@@ -1,0 +1,10 @@
+@media print {
+    body {
+        font-size: 11pt;
+    }
+    header,
+    nav,
+    footer {
+        display: none;
+    }
+}
