@@ -7,4 +7,10 @@
     footer {
         display: none;
     }
+    .btonWa{
+        display: none;
+    }
+    aside{
+        display: none;
+    }
 }
