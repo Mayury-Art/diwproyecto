@@ -19,7 +19,7 @@
     font-family: "Zen Antique Soft", serif;
 }
 
-
+[alt]
 /*-----------------BODY------------------*/
 
 body {
@@ -28,7 +28,6 @@ body {
     letter-spacing: 1px;
     word-spacing: 1px;
     margin: 0;
-    margin-bottom: 40px;
 }
 
 main {
@@ -80,6 +79,8 @@ h5 {
     text-align: center;
     text-transform: uppercase;
     line-height: 50px;
+    text-shadow: 4px 4px 2px rgba(152, 150, 207, 0.7);
+    margin-top: 10px;
 }
 
 
@@ -94,15 +95,24 @@ h5 {
     margin-left: 100px;
     position: fixed;
     z-index: 1;
-    /* //TODOtransition: */
+    padding: 0;
+    /* transition: */
+    transition: 1s linear;
+}
+
+
+/* transition: */
+
+.logo:hover {
+    width: 105px;
 }
 
 header {
-    position: fixed;
     width: 100%;
     height: 100px;
     overflow: hidden;
     background: linear-gradient(to top, #ccc, #96cf8e);
+    box-shadow: 10px 10px 14px 2px rgba(0, 0, 0, 0.47);
 }
 
 nav ul {
@@ -200,6 +210,7 @@ footer {
     max-width: 100%;
     margin: 0, auto;
     display: block;
+    overflow: hidden;
 }
 
 main article {
@@ -253,6 +264,7 @@ table {
     table-layout: auto;
     width: 100%;
     text-align: center;
+    margin-top: 50px;
     margin-left: auto;
     border-collapse: collapse;
     margin-bottom: 500px;
@@ -309,9 +321,9 @@ a:focus {
 
 form {
     width: 100%;
-    margin-top: 200px;
-    margin-bottom: 150px;
-    margin-left: 700px;
+    margin-top: 50px;
+    margin-bottom: auto;
+    margin-left: 100px;
     padding-top: 30px;
     max-width: 600px;
     display: flex;
@@ -464,7 +476,11 @@ button {
 
 @media screen and (max-width: 480px) {
     .form:after {
-        margin-left: 20px;
+        padding-top: 0;
+        margin-right: 10px;
+        padding-bottom: 0;
+        margin-top: 0;
+        margin-bottom: 0;
     }
 }
 
