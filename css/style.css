@@ -19,7 +19,18 @@
     font-family: "Zen Antique Soft", serif;
 }
 
-[alt]
+
+/*Selector de atributos en CSS*/
+
+img:not([alt]) {
+    background-color: red;
+}
+
+[href$=".pdf"]::after {
+    content: ("https://www.shareicon.net/data/16x16/2016/08/13/808584_document_512x512.png");
+}
+
+
 /*-----------------BODY------------------*/
 
 body {
