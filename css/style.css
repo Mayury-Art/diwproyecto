@@ -167,7 +167,7 @@ header nav ul li a:hover {
 /*----------PARALLAX-------*/
 
 .parallax {
-    background-image: url(/img/logoArecales.png);
+    background-image: url(../img/logoArecales.png);
     height: 400px;
     background-attachment: fixed;
     background-position: center;
