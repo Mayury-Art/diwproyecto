@@ -27,7 +27,7 @@ img:not([alt]) {
 }
 
 a[href$=".pdf"]::after {
-    content: url(https://www.shareicon.net/data/16x16/2016/08/13/808584_document_512x512.png);
+    content: url(../img/pdf.png);
 }
 
 
@@ -38,12 +38,11 @@ body {
     color: black;
     letter-spacing: 1px;
     word-spacing: 1px;
-    margin: 0;
 }
 
 main {
-    max-width: 1200px;
-    /* margin: 0 auto; */
+    margin-left: 50px;
+    margin-right: 50px;
     background-color: #fff7ddbd;
     clear: both;
 }
@@ -105,7 +104,7 @@ h5 {
     width: 100px;
     margin-left: 100px;
     position: fixed;
-    z-index: 1;
+    z-index: 2;
     padding: 0;
     /* transition: */
     transition: 1s linear;
@@ -121,7 +120,9 @@ h5 {
 header {
     width: 100%;
     height: 100px;
-    overflow: hidden;
+    position: fixed;
+    overflow: hidden; 
+    z-index: 1;
     background: linear-gradient(to top, #ccc, #96cf8e);
     box-shadow: 10px 10px 14px 2px rgba(0, 0, 0, 0.47);
 }
@@ -167,13 +168,14 @@ header nav ul li a:hover {
 /*----------PARALLAX-------*/
 
 .parallax {
-    background-image: url(../img/logoArecales.png);
+    background: url(../img/fondoInicio.jpg);
     height: 400px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+    
 }
 
 .parallax img {
@@ -184,6 +186,7 @@ header nav ul li a:hover {
     transform: translate(-50%, -50%);
     -webkit-transform: translate(-50%, -50%);
     overflow: hidden;
+    opacity: 1;
 }
 
 
@@ -479,14 +482,16 @@ button:hover {
         margin-top: 10px;
         margin-left: 10px;
         position: fixed;
-        z-index: 1;
+        z-index: 2;
     }
     header {
         position: fixed;
         width: 100%;
         height: 100px;
-        overflow: hidden;
+        overflow: hidden; 
+        z-index: 1;
         background: linear-gradient(to top, #ccc, #96cf8e);
+        z-index: 1;
     }
     nav ul {
         float: left;
@@ -553,7 +558,8 @@ button:hover {
         position: fixed;
         width: 100%;
         height: 100px;
-        overflow: hidden;
+        overflow: hidden; 
+        z-index: 1;
         background: linear-gradient(to top, #ccc, #96cf8e);
     }
     nav ul {
