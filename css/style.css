@@ -528,4 +528,50 @@ button:hover {
     align-items: flex-start;
     margin-left: 15px;
   }
+  /*--------------Footer-------------*/
+  
+footer {
+  background: linear-gradient(to top, #96cf8e, #ccc);
+  height: 150px;
+  margin: 0, auto;
+  margin-top: 50px;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 1em;
+  text-align: justify;
+}
+
+
+.foo p {  
+  font-size: 0.6em;
+}
+
+.foo address {
+  text-transform: uppercase;
+}
+
+.foo address a {
+  list-style: none;
+  color: black;
+}
+
+.iconos {
+  color: black;
+  font-size: 20px;
+  text-align: center;
+}
+
+footer{
+  height: 70px;
+}
+
+.btonWa {
+  position: fixed;
+  width: 20px;
+  height: 20px;
+  color: black;
+  border-radius: 20px;
+  text-align: center;
+  font-size: 20px;
+}
 }
