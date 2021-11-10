@@ -1,86 +1,136 @@
 <!DOCTYPE html>
 <html lang="es">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0" /> -->
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1"
+    />
     <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" type="text/css" media="print" href="css/imprimir.css" />
-    <link rel="shortcut icon" type="image/x-icon" href="img/3757palm.ico">
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="print"
+      href="css/imprimir.css"
+    />
+    <link rel="shortcut icon" type="image/x-icon" href="img/3757palm.ico" />
     <!--Fuente con import-->
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda&display=swap');
+      @import url("https://fonts.googleapis.com/css2?family=Bodoni+Moda&display=swap");
     </style>
     <!--El título tiene que llevar 70 carácteres-->
-    <title>Contacto - Arecales - Poda de palmeras, árboles y mantenimiento de jardines</title>
-    <meta name="description" content="Contacta con nosotros para más información para el cuidado de tus palmeras y jardines" />
-    <script src="https://kit.fontawesome.com/69c62eb682.js" crossorigin="anonymous"></script>
-</head>
+    <title>
+      Contacto - Arecales - Poda de palmeras, árboles y mantenimiento de
+      jardines
+    </title>
+    <meta
+      name="description"
+      content="Contacta con nosotros para más información para el cuidado de tus palmeras y jardines"
+    />
+    <script
+      src="https://kit.fontawesome.com/69c62eb682.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
 
-
-<body>
+  <body>
     <a href="#"><i class="fab fa-whatsapp-square btonWa"></i></a>
-    <a href="index.html"><img src="img/logoArecales.png" class="logo" alt="Logo" /></a>
+    <a href="index.html"
+      ><img src="img/logoArecales.png" class="logo" alt="Logo"
+    /></a>
     <div class="cuerpo">
-        <header>
-            <nav>
-                <ul>
-                    <li><a href="index.html">Inicio</a></li>
-                    <li><a href="contacto.html">Contacto</a></li>
-                    <li><a href="servicios.html">Servicios</a></li>
-                    <li><a href="blog.html">Blog</a></li>
-                </ul>
-            </nav>
-        </header>
-        <div class="menu"></div>
-        <div class="formulario"></div>
+      <header>
+        <nav>
+          <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+            <li><a href="servicios.html">Servicios</a></li>
+            <li><a href="blog.html">Blog</a></li>
+          </ul>
+        </nav>
+      </header>
+      <div class="menu"></div>
+      <div class="formulario">
         <form action="">
-            <fieldset>
-                <legend>Formulario de contacto</legend>
+          <fieldset>
+            <legend>Formulario de contacto</legend>
 
-                <label for="nombre"> </label>
-                <input type="text" name="nombre" id="Nombre" placeholder="Escribe tu nombre" pattern="[a-zA-Z0-9]{1,30}" autofocus="autofocus" required />
+            <label for="nombre"> </label>
+            <input
+              type="text"
+              name="nombre"
+              id="Nombre"
+              placeholder="Escribe tu nombre"
+              pattern="[a-zA-Z0-9]{1,30}"
+              autofocus="autofocus"
+              required
+            />
 
-                <label for="edad"></label>
-                <input type="number" placeholder="Edad" max="99" min="18" id="edad" required />
+            <label for="edad"></label>
+            <input
+              type="number"
+              placeholder="Edad"
+              max="99"
+              min="18"
+              id="edad"
+              required
+            />
 
-                <label for="email"></label>
-                <input type="email" name="email" id="email" placeholder="mail@email.com" required />
+            <label for="email"></label>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="mail@email.com"
+              required
+            />
 
-                <label for="fono"></label>
-                <input type="tel" name="fono" id="fono" placeholder="Teléfono" pattern="[0-9]{9}" required />
+            <label for="fono"></label>
+            <input
+              type="tel"
+              name="fono"
+              id="fono"
+              placeholder="Teléfono"
+              pattern="[0-9]{9}"
+              required
+            />
 
-                <label for="textoConsulta"> </label>
-                <textarea name="textoConsulta" id="textoConsulta" cols="30" rows="10" placeholder="Escribe tu consulta"></textarea>
+            <label for="textoConsulta"> </label>
+            <textarea
+              name="textoConsulta"
+              id="textoConsulta"
+              cols="30"
+              rows="10"
+              placeholder="Escribe tu consulta"
+            ></textarea>
 
-                <label for="texto" class="politica">Polica de privacidad</label>
-                <input type="checkbox" id="texto" class="checkbox" />
+            <label for="texto" class="politica">Polica de privacidad</label>
+            <input type="checkbox" id="texto" class="checkbox" />
 
-                <button type="submit" id="enviar" name="Enviar">Enviar</button>
-            </fieldset>
+            <button type="submit" id="enviar" name="Enviar">Enviar</button>
+          </fieldset>
         </form>
-        <!-- <div class="formulario"></div> -->
+      </div>
+      <!-- <div class="formulario"></div> -->
     </div>
     <footer>
-        <div class="foo">
-            <p>Autor: Pepito Grillo.</p>
-        </div>
-        <div class="foo">
-            <address>
-                <p>Envianos un <a href="mailto:ejemplo@ejemplo.com">email</a></p>
-                <p>Llamanos: <a href="tel:+34698745216">698745216</a></p>
-             </address>
-        </div>
-        <div class="foo">
-            <p class="rss">Redes sociales:</p>
-            <!-- <a href="#"><i class="fab fa-whatsapp-square iconos"></i></a> -->
-            <a href="#"><i class="fab fa-facebook-square iconos"></i></a>
-            <a href="#"><i class="fab fa-twitter-square iconos"></i></a>
-        </div>
-
+      <div class="foo">
+        <p>Autor: Pepito Grillo.</p>
+      </div>
+      <div class="foo">
+        <address>
+          <p>Envianos un <a href="mailto:ejemplo@ejemplo.com">email</a></p>
+          <p>Llamanos: <a href="tel:+34698745216">698745216</a></p>
+        </address>
+      </div>
+      <div class="foo">
+        <p class="rss">Redes sociales:</p>
+        <!-- <a href="#"><i class="fab fa-whatsapp-square iconos"></i></a> -->
+        <a href="#"><i class="fab fa-facebook-square iconos"></i></a>
+        <a href="#"><i class="fab fa-twitter-square iconos"></i></a>
+      </div>
     </footer>
-</body>
-
+  </body>
 </html>
