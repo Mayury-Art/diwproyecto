@@ -517,7 +517,7 @@ button:hover {
 
 /* --------------------------MEDIA QUERIES MAX 480px --------------------------*/
 
-@media (min-width: 412px) and (max-width: 800px) {
+@media (min-width: 400px) and (max-width: 800px) {
     .logo {
         width: 50px;
         margin-left: 10px;
