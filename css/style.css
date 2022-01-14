@@ -497,7 +497,20 @@ button:hover {
     vertical-align: center;
 }
 
-
+.barriba{
+	position: fixed;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    bottom: 30px;
+    left: 30px;
+    color: black;
+    border-radius: 50px;
+    text-align: left;
+    font-size: 50px;
+    z-index: 1;
+    vertical-align: center;
+}
 /* --------------------------MEDIAS QUERIES max 1024--------------------------------------*/
 
 @media (min-width: 805px) and (max-width: 1024px) {
@@ -611,3 +624,4 @@ button:hover {
         overflow-x: auto;
     }
 }
+

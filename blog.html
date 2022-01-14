@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="css/style.css" />
   <link rel="stylesheet" type="text/css" media="print" href="css/imprimir.css" />
   <link rel="shortcut icon" type="image/x-icon" href="img/3757palm.ico" />
+
   <title>
     Blog - Arecales - Poda de palmeras, árboles y mantenimiento de jardines
   </title>
@@ -19,6 +20,9 @@
 
 <body>
   <a href="#"><i class="fab fa-whatsapp-square btonWa"></i></a>
+  <a href="#"><i class="fas fa-arrow-up barriba"></i></a>
+
+
   <a href="index.html"><img src="img/logoArecales.png" class="logo" alt="Logo" /></a>
   <div class="cuerpo">
     <header>
@@ -42,8 +46,8 @@
             <li><a href="#otraEntrada">Otras Entrada</a></li>
             <li><a href="#otrasNovedades">Otras Novedades</a></li>
             <li><a href="#video">Video</a></li>
-            <li><a href="#audio">Video</a></li>
-
+            <li><a href="#audio">Audio</a></li>
+            <li><a href="#activitat">Activitat 5.1</a></li>
           </ul>
         </aside>
       </div>
@@ -157,14 +161,33 @@
         </video>
 
       </article>
-      <article>
-        <a href="audio"></a>
+      <article href="audio">
+        <a name="audio"></a>
         <audio id="audio" controls>
           <source src="/media/nature-00019.mp3">
           <source src="/media/nature-00019.ogg">
           Tu navegador no soporta audio
         </audio>
       </article>
+      <article>
+        <a name="activitat"></a>
+        <video id="medio" width="720" height="400">
+          <source src="http://clips.vorwaerts-gmbh.de/big_buck_bunny.mp4">
+          <source src="http://clips.vorwaerts-gmbh.de/big_buck_bunny.ogv">
+        </video>
+
+        <nav>
+          <input type="button" id="reiniciar" value="reiniciar">
+          <input type="button" id="retrasar" value="&laquo;">
+          <input type="button" id="play" value="&#9658;">
+          <input type="button" id="adelantar" value="&raquo;">
+          <input type="button" id="silenciar" value="silenciar">
+          <label>Volumen</label>
+          <input type="button" id="menosVolumen" value="-">
+          <input type="button" id="masVolumen" value="+">
+        </nav>
+      </article>
+
     </main>
   </div>
 
