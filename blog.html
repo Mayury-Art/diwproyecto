@@ -171,21 +171,27 @@
       </article>
       <article>
         <a name="activitat"></a>
-        <video id="medio" width="720" height="400">
-          <source src="http://clips.vorwaerts-gmbh.de/big_buck_bunny.mp4">
-          <source src="http://clips.vorwaerts-gmbh.de/big_buck_bunny.ogv">
-        </video>
+        <div>
+          <video id="medio" width="720" height="400">
+            <source src="http://clips.vorwaerts-gmbh.de/big_buck_bunny.mp4">
+            <source src="http://clips.vorwaerts-gmbh.de/big_buck_bunny.ogv">
+          </video>
+        </div>
 
-        <nav>
-          <input type="button" id="reiniciar" value="reiniciar">
-          <input type="button" id="retrasar" value="&laquo;">
-          <input type="button" id="play" value="&#9658;">
-          <input type="button" id="adelantar" value="&raquo;">
-          <input type="button" id="silenciar" value="silenciar">
-          <label>Volumen</label>
-          <input type="button" id="menosVolumen" value="-">
-          <input type="button" id="masVolumen" value="+">
-        </nav>
+
+        <div class="divNav">
+          <nav class="navVideo">
+            <input type="button" id="reiniciar" value="reiniciar">
+            <input type="button" id="retrasar" value="&laquo;">
+            <input type="button" id="play" value="&#9658;">
+            <input type="button" id="adelantar" value="&raquo;">
+            <input type="button" id="silenciar" value="silenciar">
+            <label>Volumen</label>
+            <input type="button" id="menosVolumen" value="-" class="fas fa-minus"> 
+            <input type="button" id="masVolumen" value="+" class="fas fa-plus" >
+          </nav>
+        </div>
+
       </article>
 
     </main>
@@ -208,6 +214,7 @@
       <a href="#"><i class="fab fa-twitter-square iconos"></i></a>
     </div>
   </footer>
+  <script src="./js/script.js"></script>
 </body>
 
 </html>

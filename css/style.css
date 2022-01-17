@@ -342,7 +342,31 @@ aside ul li:hover {
     color: black;
 }
 
+/***--------NAV-VIDEO------------*/
 
+.divNav{
+ text-align: center;
+ margin: 0 auto;
+ width: 30%;
+}
+
+.navVideo{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+   margin: 0 auto;
+}
+.navVideo input{
+   
+   padding-top: 5px;
+   padding-right: 10px;
+   margin: 0 auto;
+
+}
+
+#masVolumen{
+    font-weight: bolder;
+} 
 /*-----------TABLA/SERVICIOS--------*/
 
 table {
