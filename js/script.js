@@ -38,14 +38,14 @@ function accionSilenciar() {
 }
 function accionMasVolumen() {
     //Contemplar que el valor máximo de volumen es 1
-    if (medio.volume < 1) {
+    if (medio.volume <= 1) {
         medio.volume += 0.1;
     }
 }
 function accionMenosVolumen() {
     //Contemplar que el valor mínimo de volumen es 0
-    if (medio.volume >= 0 && medio.volume != 0 ) {
-        medio.volume -= 0.1;
+    if (medio.volume > 0.1) {
+        medio.volume -= 0.3;
     }
 }
 
