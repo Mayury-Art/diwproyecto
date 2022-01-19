@@ -1,4 +1,4 @@
-
+/**------------------Actividad 5.1----------------------- */
 function accionPlay() {
     if (!medio.paused && !medio.ended) {
         medio.pause();
@@ -16,17 +16,29 @@ function accionReiniciar() {
     //Reproducir el vídeo
     //Cambiar el valor del botón a ||
     medio.currentTime = 0;
-    play.value = '||'
 }
 function accionRetrasar() {
     //Usar propiedad .curentTime
     //Contemplar que no existen valores negativos
-    medio.currentTime = medio.currentTime - 5;
-
+    if (medio.currentTime < 5) {
+        medio.currentTime = 0;
+    } else {
+        medio.currentTime = medio.currentTime - 5;
+    }
+    console.log(medio.currentTime);
 }
 function accionAdelantar() {
     //Contemplar que no existen valores mayores a medio.duration
-    medio.currentTime = medio.currentTime + 5;
+    if (medio.currentTime >= (medio.duration - 5)) {
+        medio.currentTime = medio.duration;
+        play.value = '\u25BA';
+    } else {
+        medio.currentTime = medio.currentTime + 5;
+    }
+
+    //console.log(medio.currentTime);
+    //console.log(medio.duration);
+
 }
 function accionSilenciar() {
     //Utilizar medio.muted = true; o medio.muted = false;
@@ -68,3 +80,5 @@ function iniciar() {
 }
 
 window.addEventListener('load', iniciar, false);
+
+/**------------------Actividad 5.1----------------------- */

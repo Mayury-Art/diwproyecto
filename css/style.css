@@ -306,11 +306,20 @@ main article {
     padding-left: 50px;
 }
 
+.articulosBlog{
+    max-width: 90%;
+}
+
 iframe {
     width: 100%;
     height: 400px;
     margin: 20px;
     padding: 15px;
+}
+
+.centrarMedia{
+    text-align: center;
+    margin-bottom: 20px;
 }
 
 
@@ -344,10 +353,14 @@ aside ul li:hover {
 
 /***--------NAV-VIDEO------------*/
 
+
+
 .divNav{
  text-align: center;
  margin: 0 auto;
  width: 30%;
+ align-items: center;
+
 }
 
 .navVideo{
