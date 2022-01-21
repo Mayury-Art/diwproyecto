@@ -666,9 +666,42 @@ button:hover {
 .animacion {
     animation-duration: 4s;
     animation-name: animado;
-    margin: 20px;
   }
   @keyframes animado {
+    from {
+      margin-left: 100%;
+      width: 100%;
+    }
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+
+.menuAside{
+  animation-duration: 2s;
+  animation-name: animaAside;
+  animation-iteration-count: 2;
+}
+  @keyframes animaAside {
+    from {
+        -webkit-transform: rotate(0deg);
+        transform: rotateY(0deg);
+    }
+    50%{
+        -webkit-transform: rotate(180deg);
+        transform: rotateY(180deg);
+    } to {
+        -webkit-transform: rotate(360deg);
+        transform: rotateY(360deg);
+        }
+}
+
+article h2{
+    animation-duration: 4s;
+  animation-name: h2Blog;
+}
+@keyframes h2Blog {
     from {
       margin-left: 100%;
       width: 100%;
