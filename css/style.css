@@ -662,3 +662,19 @@ button:hover {
     }
 }
 
+/*---------------ANIMACIÓN/BLOG-----------------*/
+.animacion {
+    animation-duration: 4s;
+    animation-name: animado;
+    margin: 20px;
+  }
+  @keyframes animado {
+    from {
+      margin-left: 100%;
+      width: 100%;
+    }
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
