@@ -12,7 +12,7 @@
 
   <title>
     Blog - Arecales - Poda de palmeras, árboles y mantenimiento de jardines
-  </title>
+  </title> 
   <meta name="description"
     content="Consejo para la poda de palmeras. Aprende a cuidar de tu jardín de palmeras. Consejos sobre de poda de palmeras y árboles" />
   <script src="https://kit.fontawesome.com/69c62eb682.js" crossorigin="anonymous"></script>
@@ -53,6 +53,7 @@
             <li><a href="#audio">Audio</a></li>
             <li><a href="#activitat">Control de video</a></li>
             <li><a href="#controlAudio">Control de audio</a></li>
+            <li><a href="#accesibilidad">Concepto de accesibilidad web</a></li>
           </ul>
         </aside>
       </div>
@@ -67,7 +68,7 @@
             nunc cursus fringilla. Quisque vestibulum nulla quis risus commodo
             fringilla.
           </p>
-          <p>
+          <!--  <p>
             Sed pellentesque condimentum sem. Morbi commodo pulvinar libero et
             malesuada. Maecenas viverra maximus velit, sed aliquam velit pretium
             sed.
@@ -83,7 +84,7 @@
             vitae faucibus orci. Nam imperdiet, justo et cursus porttitor, ipsum
             enim pulvinar purus, quis ultrices augue leo in quam. Nullam euismod
             aliquam sem et imperdiet.
-          </p>
+          </p> -->
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3131.9812502762406!2d-0.7183108844776932!3d38.279927479670576!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd63b7ad6e40fdc1%3A0x609104ad972f51c4!2sIES%20Severo%20Ochoa%20Elche!5e0!3m2!1ses!2ses!4v1633282839449!5m2!1ses!2ses"
             style="border: 0" allowfullscreen="" loading="lazy"></iframe>
@@ -99,14 +100,14 @@
             Maecenas viverra maximus velit, sed aliquam velit pretium sed.
             Curabitur eu purus ornare, sollicitudin lorem eu, facilisis enim.
           </p>
-          <p>
+          <!--  <p>
             In consectetur sollicitudin neque eget ornare. Mauris faucibus sed
             eros sed pulvinar. Phasellus accumsan tincidunt mi id auctor. Donec
             feugiat faucibus augue ac tempor. Donec consequat diam in nunc
             cursus fringilla. Quisque vestibulum nulla quis risus commodo
             fringilla. Donec id massa mattis, viverra turpis vitae, tincidunt
             dui. Quisque vitae faucibus orci.
-          </p>
+          </p> -->
           <iframe width="560" height="315" src="https://www.youtube.com/embed/pk2ylcYoxZc?start=90"
             title="YouTube player" frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -123,7 +124,7 @@
             Maecenas viverra maximus velit, sed aliquam velit pretium sed.
             Curabitur eu purus ornare, sollicitudin lorem eu, facilisis enim.
           </p>
-          <p>
+          <!-- <p>
             In
             consectetur sollicitudin neque eget ornare. Mauris faucibus sed eros
             sed pulvinar. Phasellus accumsan tincidunt mi id auctor. Donec
@@ -133,7 +134,7 @@
             dui. Quisque vitae faucibus orci. Nam imperdiet, justo et cursus
             porttitor, ipsum enim pulvinar purus, quis ultrices augue leo in
             quam. Nullam euismod aliquam sem et imperdiet.
-          </p>
+          </p> -->
         </article>
         <article>
           <a name="otrasNovedades"></a>
@@ -145,19 +146,19 @@
             malesuada dictum, dui lacus tempus justo, quis lacinia lacus ex a
             tortor. In imperdiet risus eget auctor pulvinar.
           </p>
-          <p>
+          <!-- <p>
             Aenean laoreet id
             ante quis lobortis. Ut elementum elementum ligula, et tincidunt dui
             imperdiet quis. Quisque iaculis tincidunt felis, in dictum elit
             fringilla at. Duis ligula sapien, pellentesque eu mollis vitae,
             venenatis a ligula. Etiam in orci vitae lorem vehicula hendrerit.
-          </p>
+          </p> -->
         </article>
         <article class="centrarMedia">
           <hr>
           <a name="video"></a>
           <h2>Actividad Video</h2>
-          <video id="video" width="700" height="350" controls>
+          <video id="video" width="560" height="315" controls>
             <source src="/media/Man photographing from a parked car.mp4" type="video/mp4">
             <source src="/media/Man photographing from a parked car.ogg" type="video/ogg">
             <source src="/media/Man photographing from a parked car.webm" type="video/webm">
@@ -179,7 +180,7 @@
           <a name="activitat"></a>
           <h2>Control de vídeo</h2>
           <div>
-            <video id="medio" width="720" height="400">
+            <video id="medio" width="560" height="315">
               <source src="http://clips.vorwaerts-gmbh.de/big_buck_bunny.mp4">
               <source src="http://clips.vorwaerts-gmbh.de/big_buck_bunny.ogv">
             </video>
@@ -197,16 +198,65 @@
             </nav>
           </div>
         </article>
-        <article class="centrarMedia">
+        <article class="centrarMedia"><i class="fas fa-arrow-right"></i>
           <hr>
           <a name="controlAudio"></a>
           <h2>Control de audio</h2>
-          <button id="audio1">Audio1</button>
-          <button id="audio2">Audio2</button>
-          <button id="audio3">Audio3</button>
-          <button id="audio4">Audio4</button>
-          <button id="audio5">Audio5</button>
+          <div class="divAudios">
+            <button id="audio1" class="audio">Audio1</button>
+            <button id="audio2" class="audio">Audio2</button>
+            <button id="audio3" class="audio">Audio3</button>
+            <button id="audio4" class="audio">Audio4</button>
+            <button id="audio5" class="audio">Audio5</button>
+          </div>
 
+        </article>
+        <article>
+          <hr>
+          <a name="accesibilidad"></a>
+          <h2>Concepto de accesibilidad web</h2>
+          <ul><strong>Actividad 1.1. Indica qué tipo de perfil no podría entender las siguientes instrucciones</strong>
+            <li>Pulsa el botón amarillo para acceder. <i class="fas fa-arrow-right"></i> Ceguera, baja visión,
+              daltonismo, motrices</li>
+            <li>El menú está en la derecha. <i class="fas fa-arrow-right"></i> Neurológicas o cognitivas</li>
+            <li>Los errores se indicarán mediante un sonido <i class="fas fa-arrow-right"></i> Auditivas</li>
+          </ul>
+          <br>
+          <ul><strong>Actividad 1.2. Propón una solución a cada uno de los siguientes desafíos: </strong>
+            <li> Usuarios que no pueden ver vídeos. <i class="fas fa-arrow-right"></i> Narrador que describa los videos
+            </li>
+            <li> Usuarios que no pueden escuchar vídeos.<i class="fas fa-arrow-right"></i> Insertar subtítulos
+              sincronizados</li>
+            <li> Los daltónicos no pueden representar bien los colores.<i class="fas fa-arrow-right"></i> Contrastar más
+              los colores</li>
+            <li> Usuarios que no pueden utilizar el ratón.<i class="fas fa-arrow-right"></i> Funciones disponibles desde
+              el teclado y establecer un ordén lógico </li>
+            <li> Usuarios con dificultades de concentración o comprensión cuando hay párrafos largos.<i
+                class="fas fa-arrow-right"></i> Agrupar la información debajo de encabezados lógicos. Organiza la
+              información en "trozos" manejables. </li>
+          </ul>
+          <br>
+          <ul><strong>Actividad 1.3. Instala la extensión Screen Reader. Realiza una puesta en común sobre las opciones
+              de Screen Reader que figuran en el apartado “configuración”.</strong>
+            <li> ¿Para trabajar con Screen Reader es preciso disponer de altavoces?<i class="fas fa-arrow-right"></i> Si
+            </li>
+            <li> ¿Un usuario ciego puede instalar Screen Reader?<i class="fas fa-arrow-right"></i> No, se requiere de ayuda para la instalación</li>
+            <li> ¿Permite cambio de idioma?<i class="fas fa-arrow-right"></i> Si</li>
+            <li> ¿Permite cambio de voz?<i class="fas fa-arrow-right"></i> Si</li>
+            <li> ¿Se pueden modificar los comandos para desplazarte por una página cómodamente?<i
+                class="fas fa-arrow-right"></i> Si</li>
+          </ul>
+          <ul><strong> Actividad 1.4. Utiliza Screen Reader para leer la página inicial de Eniun y saca tus propias
+              conclusiones en cuanto al uso de la herramienta. Exponlas en común en clase.</strong>
+
+            <li> ¿La herramienta se dedica a leer el contenido o también lo “explica”?<i class="fas fa-arrow-right"></i> Lee el contenido</li>
+            <li> Cuando utilizas el tabulado para acceder a los enlaces ¿has entendido bien dónde te lleva cada enlace? ¿Qué cambiarías?<i class="fas fa-arrow-right"></i> Explica a donde te lleva cada enlace y lee la cabecera de todas las entradas, sin embargo no lee los parráfos de un enlace, no los selecciona y los lee, se tiene que poner el ratón y seleccionar el parráfo para que se lea </li>
+            <li> ¿Qué pasa cuando lees un enlace de una imágen que se ha incluido mediante CSS 
+              (por ejemplo: los enlaces de redes sociales en los que se utiliza un repositorio que agrega las imágenes mediante CSS)?
+               ¿Qué ocurriría si no se incluyera la etiqueta “title”?<i class="fas fa-arrow-right"></i> Cuando entras en una página lee lo que haya en el tittle y si no ubiese lee la url</li>
+            <li> Accede a servicios/desarrollo web y pulsa en la tabla de precios. ¿se entiende? ¿qué podemos hacer para mejorarla?<i class="fas fa-arrow-right"></i> </li>
+            <li> ¿Es entendible el botón de la lupa? ¿qué haríamos para que sea entendible?<i class="fas fa-arrow-right"></i> </li>
+          </ul>
         </article>
       </div>
 
