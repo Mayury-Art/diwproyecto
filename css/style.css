@@ -711,3 +711,16 @@ article h2{
       width: 100%;
     }
   }
+
+  .divAudios{
+     text-align: center;
+      display: flex;
+      float: left;
+      margin: 0;
+      padding: 0;
+  }
+
+  .audio{
+    margin: 15px;
+    padding: 10px;
+  }
