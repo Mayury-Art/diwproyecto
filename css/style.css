@@ -543,7 +543,7 @@ button:hover {
     left: 30px;
     color: black;
     border-radius: 50px;
-    text-align: left;
+    text-align: center;
     font-size: 50px;
     z-index: 1;
     vertical-align: center;
@@ -724,3 +724,7 @@ article h2{
     margin: 15px;
     padding: 10px;
   }
+
+  /**jQuery**/
+
+  
