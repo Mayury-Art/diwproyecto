@@ -1,6 +1,7 @@
 $(document).ready(function () {
   $(".enlace1").click(function () {
     var dondeEstamos = $(".dondeEstamos").offset();
+    console.log(dondeEstamos);
     $("html, body").animate({ scrollTop: dondeEstamos.top - 100 }, 600);
   });
   $(".enlace2").click(function () {
@@ -29,8 +30,9 @@ $(document).ready(function () {
   });
   $(".enlace8").click(function () {
     var audios5 = $(".audios5").offset();
-    $("html, body").animate({ scrollTop: audios5.top - 200 }, 600);
+    $("html, body").animate({ scrollTop: audios5.top - 200 }, 800);
   });
+
   $(".barriba").css("display", "none");
   $(window).scroll(function () {
     if ($(window).scrollTop() > 500) {
@@ -38,6 +40,10 @@ $(document).ready(function () {
     } else {
       $(".barriba").fadeOut("slow");
     }
+  });
+
+  $(".barriba").click(function () {
+    $("html, body").animate({ scrollTop: 0 }, 600);
   });
 
   var x = true;
