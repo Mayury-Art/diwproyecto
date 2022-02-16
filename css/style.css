@@ -94,7 +94,7 @@ h5 {
 /*-------Logo------------*/
 
 .logo {
-  margin-top: 10px;
+  /* margin-top: 10px; */
   width: 100px;
   margin-left: 100px;
   position: fixed;
@@ -514,7 +514,7 @@ button:hover {
 .barriba {
   position: fixed;
   width: 55px;
-  height: 55px;
+  /* height: 55px; */
   line-height: 55px;
   bottom: 30px;
   left: 30px;
@@ -530,7 +530,7 @@ button:hover {
 @media (min-width: 805px) and (max-width: 1024px) {
   .logo {
     width: 80px;
-    margin-top: 10px;
+    /* margin-top: 10px; */
     margin-left: 10px;
   }
   nav ul {
@@ -602,7 +602,7 @@ button:hover {
     text-align: center;
   }
   footer {
-    height: 70px;
+    height: 100%;
   }
   .btonWa {
     position: fixed;
@@ -614,13 +614,13 @@ button:hover {
     font-size: 20px;
   }
   main article {
-    width: 100%;
+    width: 70%;
     margin: 0;
     padding: 0;
     clear: none;
   }
   .menuAside {
-    width: 100%;
+    width: 20%;
     display: flex;
     margin: 0 auto;
     justify-content: center;
@@ -713,6 +713,7 @@ article h2 {
   /* padding: 5px; */
   text-align: center;
   display: none;
+  width: 100%;
 }
 
 a {
@@ -721,6 +722,7 @@ a {
   color: white;
   text-decoration: none;
   text-transform: uppercase;
+  width: 100%;
 }
 
 @media (min-width: 761px) {
@@ -732,6 +734,7 @@ a {
     background: #96cf8e;
     display: none;
     visibility: hidden;
+    width: 100%;
   }
   .cuerpo,
   header {
@@ -743,18 +746,21 @@ a {
 @media (max-width: 760px) {
   .container {
     text-align: center;
+    margin:0;
   }
   .logo {
     display: none;
     visibility: hidden;
   }
-  header {
+header {
+    margin: 0;
     visibility: hidden;
     display: none;
   }
   #trigger {
     display: block;
   }
+
   nav {
     display: none;
   }
